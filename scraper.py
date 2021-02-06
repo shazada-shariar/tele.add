@@ -12,21 +12,13 @@ cy="\033[1;36m"
 
 def banner():
     print(f"""
-{re}___×___{cy}___×__{re}____×____{cy}_____×_____
-{re}___S____{cy}__UL___ {re}___TA_____{cy}____N______
-{re}____SH______ {cy}___AR___{re}____IA_____{cy}_____R____
-          ╔══╦╦╦╦══╦══╦═╦╗
-          ║══╣║║╠╗╔╣╔╗║║║║
-          ╠══║║║╚╣║║╠╣║║║║
-          ╚══╩═╩═╩╝╚╝╚╩╩═╝
-{re}                    ╔══╦╗╔╦══╦═╦══╦══╦═╗
-{re}                    ║══╣╚╝║╔╗║╬╠║║╣╔╗║╬║
-{re}                    ╠══║╔╗║╠╣║╗╬║║╣╠╣║╗╣
-{re}                    ╚══╩╝╚╩╝╚╩╩╩══╩╝╚╩╩╝
+{re}╔╦╗{cy}┌─┐┬  ┌─┐{re}╔═╗  ╔═╗{cy}┌─┐┬─┐┌─┐┌─┐┌─┐┬─┐
+{re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
+{re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
 
-              Version : 2.0.0
- {re}Subscribe our Telegrame Chainal.
-   {cy}https://t.me/httpTremaxcommands
+              Version : 1.01
+ {re}Subscribe Termux Professor on Youtube.
+   {cy}www.youtube.com/c/TermuxProfessorYT
         """)
 
 cpass = configparser.RawConfigParser()
@@ -73,7 +65,7 @@ for chat in chats:
     except:
         continue
  
-print(gr+'[+] Choose a group to scrape members((SULTAN)) :'+re)
+print(gr+'[+] Choose a group to scrape members :'+re)
 i=0
 for g in groups:
     print(gr+'['+cy+str(i)+']' + ' - ' + g.title)
