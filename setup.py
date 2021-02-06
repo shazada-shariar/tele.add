@@ -1,5 +1,5 @@
 #!/bin/env python3
-# code by : Termux Professor
+# code by : SULTAN SHARIAR
 
 """
 
@@ -15,13 +15,14 @@ cy="\033[1;36m"
 def banner():
 	os.system('clear')
 	print(f"""
-	{re}╔═╗{cy}《_______________》
-	{re}╚═╗{cy}《____$ultan_____》
-	{re}╚═╝{cy}《_______________》
+	{re}╔═╗{cy}《___________________________________________》
+	{re}╚═╗{cy}《_______________S_U_L_T_A_N_________________》
+	{re}╚═╝{cy}《______________S_H_A_R_I_A_R________________》
 	
 	           Version : 2.0.0
 	{re}Subscribe our Telegram Chainal
 	{cy}https://t.me/httpTremaxcommands
+               {S   U   T   A   N
 	""")
 banner()
 print(gr+"[+] Installing requierments ...")
