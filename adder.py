@@ -24,9 +24,9 @@ print (re+" =   Sultan      =    Shariar  = ")
 print (gr+" =   KING        =    AFG      = ")
 print (re+" =============================== ")
 
-print (cy+"version : 1.01")
-print (cy+"This script Careted by **Sultan Shariar**")
-print (cy+"https://t.me/httpTremaxcommands")
+print (cy+" version : 2.0.0 ")
+print (re+" This script Careted by **Sultan Shariar** ")
+print (cy+" https://t.me/httpTremaxcommands ")
 
 print (re+"NOTE :")
 print ("1. >>Telegram only allow to add 200 members in group by one user<<.")
