@@ -28,7 +28,7 @@ def banner():
 	           Version : 2.0.0
 	{re}Subscribe our Telegram Chainal
 	{cy}https://t.me/httpTremaxcommands
-               {S   U  L  T   A   N
+        {re}        S   U  L  T   A   N
 	""")
 banner()
 print(gr+"[+] Installing requierments ...")
