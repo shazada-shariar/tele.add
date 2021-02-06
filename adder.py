@@ -16,9 +16,13 @@ gr="\033[1;32m"
 cy="\033[1;36m"
 
 print (re+"╔══╦╗╔╦══╦═╦══╦══╦═╗")
-║══╣╚╝║╔╗║╬╠║║╣╔╗║╬║")
-print (gr+"╠══║╔╗║╠╣║╗╬║║╣╠╣║╗╣
+print (gr+"║══╣╚╝║╔╗║╬╠║║╣╔╗║╬║")
+print (gr+"╠══║╔╗║╠╣║╗╬║║╣╠╣║╗╣")
 print (re+"╚══╩╝╚╩╝╚╩╩╩══╩╝╚╩╩╝")
+ptint (gr+"===============================")
+print (re+"=   Sultan      =    Shariar  =")
+print (gr+"=   KING        =    AFG      =")
+print (re+"===============================")
 
 print (cy+"version : 1.01")
 print (cy+"This script Careted by **Sultan Shariar**")
