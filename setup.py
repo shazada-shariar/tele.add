@@ -1,5 +1,5 @@
 #!/bin/env python3
-# code by : SULTAN SHARIAR
+# code by : Termux Professor
 
 """
 
@@ -15,20 +15,13 @@ cy="\033[1;36m"
 def banner():
 	os.system('clear')
 	print(f"""
-	{re}╔═╗{cy}《___________________________________________》
-	{re}╚═╗{cy}《_______________S_U_L_T_A_N_________________》
-	{re}╚═╝{cy}《______________S_H_A_R_I_A_R________________》
-        
-
-        {re} :::::::::::::::::::::::::{gr}::::::::::::::::::::::::
-        {gr} ::                {re}S_U_L_T_A_N                  ::
-        {re} ::                         {gr} S_H_A_R_I_A_R      ::
-        {re} :::::::::::::::::::::::::{cy}::::::::::::::::::::::::
+	{re}╔═╗{cy}┌─┐┌┬┐┬ ┬┌─┐
+	{re}╚═╗{cy}├┤  │ │ │├─┘
+	{re}╚═╝{cy}└─┘ ┴ └─┘┴
 	
-	           Version : 2.0.0
-	{re}Subscribe our Telegram Chainal
-	{cy}https://t.me/httpTremaxcommands
-        {re}        S   U  L  T   A   N
+	           Version : 1.01
+	{re}Subscribe Termux Professor on Youtube
+	{cy}www.youtube.com/c/TermuxProfessorYT
 	""")
 banner()
 print(gr+"[+] Installing requierments ...")
@@ -47,7 +40,7 @@ cpass.set('cred', 'phone', xphone)
 setup = open('config.data', 'w')
 cpass.write(setup)
 setup.close()
-print(gr+"[+] setup complete* !")
-print(gr+"[+] now you can run any tool* !")
-print(gr+"[+] make sure to read docs 4 installation & api setup*")
-print(gr+"[+] This Script Careted By __SULTAN SHARIAR__")
+print(gr+"[+] setup complete !")
+print(gr+"[+] now you can run any tool !")
+print(gr+"[+] make sure to read docs 4 installation & api setup")
+print(gr+"[+] https://github.com/termuxprofessor/TeleGram-Scraper-Adder/blob/master/README.md")
